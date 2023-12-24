@@ -1,8 +1,11 @@
 *{
     font-family: 'raleway';
-    text-align: center;
+    /* text-align: center; */
 }
 
+body{
+    background-color: cyan;
+}
 h2,h1{
     text-align: center;
 }
@@ -22,6 +25,7 @@ h2,h1{
     height: 200px;
     width: 200px;
     margin: 25px 30px 5px 5px;
+    text-align: center;
 }
 
 .one{
@@ -44,4 +48,9 @@ h2,h1{
 .userFlash{
     background-color: green;
 
+}
+
+ol{
+    font-weight: bolder;
+    font-style: italic;
 }
