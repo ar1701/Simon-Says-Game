@@ -20,13 +20,13 @@ function btnFlash(btn) {
     btn.classList.add("flash");
     setTimeout(function () {
         btn.classList.remove("flash");
-    }, 300);
+    }, 250);
 }
 function userFlash(btn) {
     btn.classList.add("userFlash");
     setTimeout(function () {
         btn.classList.remove("userFlash");
-    }, 300);
+    }, 250);
 }
 
 function levelUp() {
@@ -47,7 +47,7 @@ function btnPress(){
 
 let allBtns = document.querySelectorAll(".btn");
 for(btn of allBtns){
-    btn.addEventListener("click", btnPress);
+    btn.addEventListener("click", 250);
 }
 
 
