@@ -1,0 +1,47 @@
+*{
+    font-family: 'raleway';
+    text-align: center;
+}
+
+h2,h1{
+    text-align: center;
+}
+
+.parent{
+    width: 40%;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 35%;
+}
+
+.parent div{
+    border: 8px solid black;
+    border-radius: 25px;
+    height: 200px;
+    width: 200px;
+    margin: 25px 30px 5px 5px;
+}
+
+.one{
+    background-color:#f99b45;
+}
+.two{
+    background-color:#d95980;
+}
+.three{
+    background-color: #819ff9;
+}
+.four{
+    background-color: #63aac0;
+}
+
+.flash{
+    background-color: white;
+}
+
+.userFlash{
+    background-color: green;
+
+}
